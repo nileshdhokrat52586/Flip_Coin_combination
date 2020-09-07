@@ -1,6 +1,6 @@
 #! /bin/bash -x
 declare -A Combination
-Combination=(["h"]=0 ["t"]=0 ["hh"]=0 ["tt"]=0 ["ht"]=0 ["th"]=0)
+Combination=(["h"]=0 ["t"]=0 ["hh"]=0 ["tt"]=0 ["ht"]=0 ["th"]=0 ["hhh"]=0 ["hht"]=0 ["hth"]=0 ["tht"]=0 ["tth"]=0 ["ttt"]=0)
 coin=0
 no_of_flips=30
 flip=0
